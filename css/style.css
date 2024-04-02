@@ -1,0 +1,35 @@
+body {
+    background-color: #ebe9e9;
+    overflow: hidden;
+}
+
+.fs-i {
+    font-size: 6px;
+}
+
+ul li a:hover {
+    background-color: #f3f2f2;
+}
+
+@media (max-width: 992px)
+{
+    .profile {
+        max-width: 93px !important;
+    }
+
+    .sidebar {
+        max-width: 130px !important;
+    }
+
+    .sidebar-padding-0 {
+        padding-left: 0px !important;
+    }
+
+    .cad {
+        display: none;
+    }
+
+    .cfg {
+        display: none;
+    }
+}
